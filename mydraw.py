@@ -21,7 +21,7 @@ def draw_bear():
     pendown()
     fillcolor("black")
     begin_fill()
-    seth(90)
+    seth(45)
     for i in range(2):
         circle(15, 90)  
         circle(7, 90)  
@@ -32,7 +32,7 @@ def draw_bear():
     pendown()
     fillcolor("black")
     begin_fill()
-    seth(90) 
+    seth(45) 
     for i in range(2):
         circle(15, 90)  
         circle(7, 90)  
@@ -49,7 +49,7 @@ def draw_bear():
 
     #mouse
     penup()
-    goto(-45, -40)
+    goto(-45, -80)
     seth(-60)
     pendown()
     circle(50, 120) 
@@ -58,3 +58,4 @@ def draw_bear():
 
 # 测试
 draw_bear()
+
